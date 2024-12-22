@@ -11,21 +11,23 @@ An interactive dashboard analyzing global countries' 2020 population, GDP, popul
 ### Drillthrough Details  
 <img src="screenshots/countries-drillthrough.png" alt="Countries Drillthrough" width="550">  
 
-## Features  
-### Countries Overview Page:  
-- **Table**: Country, 2020 population, GDP, population density, GDP trend (sparkline).  
-- **Scatterplot**: X-axis: GDP, Y-axis: Temperature, Values: Years.  
-- **Regional Count**: Total countries by region.  
+## Features
 
-### Drillthrough Page:  
-- Country-specific data:  
-  - 2020 population, GDP, population density.  
-  - Line & stacked column chart (GDP growth % and GDP by year).  
-  - Table: GDP growth %, GDP per capita, trend indicators (up/down).  
+### Countries Overview Page:
+- **Table**: Displays country data for 2020, including population, GDP, population density, and a sparkline showing GDP trends.  
+- **Scatterplot**: Plots GDP on the X-axis, Temperature on the Y-axis, with values representing years.  
+- **Regional Count**: Shows the total number of countries by region.
 
-### Metadata Page:  
-- API sources used.  
-- Metadata matrix with dataset attributes.  
+### Drillthrough Page:
+- **Country-Specific Data**:  
+  - 2020 population, GDP, and population density.  
+  - Line and stacked column chart showing GDP growth percentage and GDP over the years.  
+  - Table with GDP growth percentage, GDP per capita, and trend indicators (up/down).
+
+### Metadata Page:
+- Lists the API sources used in the dashboard.  
+- Includes a metadata matrix detailing dataset attributes.
+
 
 ### Navigation:  
 - Buttons to switch between the Overview and Metadata pages.  
